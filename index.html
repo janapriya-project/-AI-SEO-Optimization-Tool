@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI SEO Optimization Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>AI SEO Optimizer</h1>
+    <p>Improve your website's SEO performance</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Website SEO Analyzer</h2>
+
+      <label for="url">Website URL</label>
+      <input id="url" type="text"
+        placeholder="https://example.com">
+
+      <label for="title">Page Title</label>
+      <input id="title" type="text"
+        placeholder="Enter your page title">
+
+      <label for="description">Meta Description</label>
+      <textarea id="description"
+        placeholder="Enter your meta description"></textarea>
+
+      <label for="content">Website Content</label>
+      <textarea id="content" rows="6"
+        placeholder="Paste your website content here"></textarea>
+
+      <label for="keyword">Target Keyword</label>
+      <input id="keyword" type="text"
+        placeholder="Example: web development">
+
+      <button id="analyzeBtn">Analyze SEO</button>
+    </section>
+
+    <section class="card results">
+      <h2>SEO Report</h2>
+      <div class="score">
+        <span id="score">--</span>
+        <p>SEO Score / 100</p>
+      </div>
+
+      <h3>Analysis</h3>
+      <ul id="analysis">
+        <li>Your SEO report will appear here.</li>
+      </ul>
+
+      <h3>Suggested Title</h3>
+      <p id="suggestedTitle">--</p>
+
+      <h3>Suggested Meta Description</h3>
+      <p id="suggestedDescription">--</p>
+
+      <h3>Recommended Keywords</h3>
+      <p id="keywords">--</p>
+    </section>
+  </main>
+
+  <footer>AI SEO Optimization Tool | Student Project</footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
